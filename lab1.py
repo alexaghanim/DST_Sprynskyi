@@ -1,1 +1,7 @@
 print("Hello World!")
+print("Enter your username")
+username = input()
+print("Hello," + username)
+print("Letters in username =" + str(len(username)))
+print("Your date of birth in DD.MM.YY format")
+dob = input()
